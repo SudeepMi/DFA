@@ -5,7 +5,7 @@ int main()
 {
 	char str[50],state='A';
 	int i,j,k;
-	printf("Enter string : \n");
+	printf("SYMBOL={a,b}\nEnter string : \n");
 	gets(str);
 	
 	for(i=0;i<strlen(str);i++){

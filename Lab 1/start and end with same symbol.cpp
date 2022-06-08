@@ -4,7 +4,7 @@ int main()
 {
 	int i=0;
 	char str[max],state='A';
-	printf("Enter the string:");
+	printf("Enter the string {0,1}:");
 	scanf("%s",str);
 	for(i=0;str[i]!='\0';i++)
 	{
@@ -64,3 +64,4 @@ int main()
 	else
 	printf("Input string Rejected");
 }
+
